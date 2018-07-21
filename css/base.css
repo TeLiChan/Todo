@@ -6,6 +6,44 @@ body{
 	background:	#ADD8E6;/*#ADD8E6*/
 	color: #fff;
 }
+.search-top{
+	width: 100%;
+	height: 100px;
+	background-color: #96cdc3;
+	color: #fff;
+	font-size: 20px;
+}
+
+.search-top form{
+	width: 800px;
+	margin: 0px auto;
+	padding-top: 40px; 
+}
+
+.search-top input[type=text]{
+	width: 700px;
+	height: 30px;
+	border:none;
+	background-color: #96cdc3;
+	outline:none;
+	padding-left: 25px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333333bd;
+}
+
+.search-top input[type=text]:focus{
+	border-bottom: 2px solid #fff;
+	border-top: 2px solid #fff;
+}
+
+.search-top input[type=submit]{
+	border:none;
+	background-color: #96cdc3;
+	cursor: pointer;
+	color: gray;
+	outline:none;
+}
+
 .container{
 	max-width: 800px;
 	margin:0 auto;
@@ -16,6 +54,8 @@ h1{
 	text-align: center;
 	text-shadow: 2px 2px 2px #000;
 }
+
+
 
 .tasks-list{
 	background-color: #fff;
@@ -29,7 +69,7 @@ h1{
 }
 
 .unfinished{
-	padding:5px 0px 5px 15px; 
+	padding:5px 0px 8px 30px; 
 	font-size: 20px;
 }
 
@@ -56,7 +96,7 @@ h1{
 	background:#eee;
 }
 
-input[type="text"]{
+.add-task input[type="text"]{
 	width: 84%;
 	height: 30px;
 	border-radius: 5px;
@@ -64,7 +104,7 @@ input[type="text"]{
 	background-color: #eee;
 	padding-left: 15px;
 }
-input[type="text"]:focus{
+.add-task input[type="text"]:focus{
 	background-color: #fff;
 	-webkit-transition: background .2s;
 	-moz-transition: background .2s;
@@ -72,7 +112,6 @@ input[type="text"]:focus{
 	-o-transition: background .2s;
 	transition: background .2s;
 	border:2px solid rgba(38,77,142,0.24);
-	
 }
 
 .add-task button{

@@ -7,10 +7,16 @@
 	<link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css">
 </head>
 <body>
+	<div class="search-top"> 
+		<form action="http://www.baidu.com/baidu" target="_blank">
+		<input type="text" name="word" placeholder="Search" autocomplete="off">
+		<input type="submit" value="Baidu">
+		</form>
+	</div>
+	
 	<!--总容器-->
 	<div class="container">
 		<h1>My Todo</h1>
-		
 		<!--任务清单列表-->
 		<div class="tasks-list">
 			<div class="unfinished ">待办事项</div><hr/>
@@ -41,11 +47,10 @@
 		</div>
 -->	</div>
 
-
 	<div class="footer">
 		© 2018 Goho
 	</div>
-
+	
 	<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="js/base.js"></script>
 <script type="text/javascript" src="node_modules/store/dist/store.legacy.min.js">
