@@ -1,0 +1,117 @@
+*{
+	/*background:rgba(0,0,0,.1);*/
+}
+
+body{
+	background:	#ADD8E6;/*#ADD8E6*/
+	color: #fff;
+}
+.container{
+	max-width: 800px;
+	margin:0 auto;
+}
+
+h1{
+	text-align: center;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.tasks-list{
+	background-color: #fff;
+	color: #333;
+	border-radius: 8px;
+	margin: 10px 0px;
+	padding: 18px 0px;
+	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 3px 3px rgba(0,0,0,.4);
+	box-shadow: 0 3px 3px rgba(0,0,0,.4);	
+}
+
+.unfinished{
+	padding:5px 0px 5px 15px; 
+	font-size: 20px;
+}
+
+.task-item_eg,
+.task-item{
+	padding: 18px 30px;
+	font-size:18px;
+	cursor: pointer;
+	-webkit-transition: background .2s;
+	-moz-transition: background .2s;
+	-ms-transition: background .2s;
+	-o-transition: background .2s;
+	transition: background .2s;
+	font-family:Roboto;
+}
+
+.task-item input{
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 15px;
+
+}
+
+.task-item:hover{
+	background:#eee;
+}
+
+input[type="text"]{
+	width: 84%;
+	height: 30px;
+	border-radius: 5px;
+	font-size:18px;
+	background-color: #eee;
+	padding-left: 15px;
+}
+input[type="text"]:focus{
+	background-color: #fff;
+	-webkit-transition: background .2s;
+	-moz-transition: background .2s;
+	-ms-transition: background .2s;
+	-o-transition: background .2s;
+	transition: background .2s;
+	border:2px solid rgba(38,77,142,0.24);
+	
+}
+
+.add-task button{
+	width: 12%;
+	height: 35px;
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+    border-radius: 8px;
+    outline:none; /*取消按钮点击后的样式*/
+    cursor: pointer;
+}
+
+.add-task button:hover{
+	font-size: 20px;
+}
+
+.task-content,.action{
+	vertical-align: top;
+}
+
+.action{
+	font-size: 20px;
+	color: #888;
+	margin-right: 20px;
+}
+
+.action1:hover{
+	color: red;
+}
+
+.action1{
+	font-size: 23px;
+}
+
+.task-right{
+	float: right;
+}
