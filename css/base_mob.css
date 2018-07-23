@@ -37,7 +37,7 @@ body{
 }
 
 .search-top input[type=submit]{
-	width: 40%;
+	width: 20%;
 	height: 60px;
 	border:none;
 	background-color: #96cdc3;
