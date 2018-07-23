@@ -35,16 +35,14 @@ body{
 }
 
 .search-top input[type=submit]{
-	width: 22%;
-	border-top:none;
-	border-bottom: none;
-	border-left: none; 
+	width: 23%;
+	border:none;
 	background-color: #96cdc3;
 	cursor: pointer;
 	color: gray;
 	outline:none;
-	border-right: 5px solid;
 	float: right;
+	font-size: 65px;
 }
 
 .container{
