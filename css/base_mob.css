@@ -22,7 +22,7 @@ body{
 }
 
 .search-top input[type=text]{
-	width: 65%;
+	width: 50%;
 	height: 60px;
 	border-left:none;
 	border-right:none;
@@ -33,10 +33,11 @@ body{
 	color: #333333bd;
 	border-bottom: 2px solid #fff;
 	border-top: 2px solid #fff;
+	float: left;
 }
 
 .search-top input[type=submit]{
-	width: 30%;
+	width: 40%;
 	height: 60px;
 	border:none;
 	background-color: #96cdc3;
@@ -151,6 +152,7 @@ h1{
 
 .add-task button:hover{
 	font-size: 20px;
+	text-align: center;
 }
 
 .task-content,.action{
