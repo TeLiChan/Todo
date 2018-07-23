@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>My Todo App</title>
-	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/base_pc.css" media="screen and (min-width:480px)">
+	<link rel="stylesheet" type="text/css" href="css/base_mob.css" media="screen and (max-width:480px)">
 	<link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css">
 </head>
 <body>
@@ -19,7 +20,11 @@
 		<h1>My Todo</h1>
 		<!--任务清单列表-->
 		<div class="tasks-list">
-			<div class="unfinished ">待办事项</div><hr/>
+			<div class="unfinished ">
+				<span>待办事项</span>
+				<span class="finished">清空</span>
+		 	</div>
+			<hr/>
 			<div class="list-content"></div>
 			</div>
 
@@ -48,7 +53,7 @@
 -->	</div>
 
 	<div class="footer">
-		 © 2018<a href="http://telichan.club"> Goho  </a>
+		 © <span></span> 2018<a href="http://telichan.club"> Goho  </a> 
 	</div>
 	
 

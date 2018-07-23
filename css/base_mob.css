@@ -1,0 +1,186 @@
+*{
+	/*background:rgba(0,0,0,.1);*/
+}
+
+body{
+	background:	#ADD8E6;/*#ADD8E6*/
+	color: #fff;
+}
+
+.search-top{
+	width: 100%;
+	height: 180px;
+	background-color: #96cdc3;
+	color: #fff;
+	font-size: 50px;
+}
+
+.search-top form{
+	width: 800px;
+	margin: 0px auto;
+	padding-top: 60px; 
+}
+
+.search-top input[type=text]{
+	width: 70%;
+	height: 50px;
+	border:none;
+	background-color: #96cdc3;
+	outline:none;
+	padding-left: 25px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333333bd;
+	border-bottom: 2px solid #fff;
+	border-top: 2px solid #fff;
+}
+
+.search-top input[type=submit]{
+	width: 20%;
+	border:none;
+	background-color: #96cdc3;
+	cursor: pointer;
+	color: gray;
+	outline:none;
+}
+
+.container{
+	max-width: 800px;
+	margin:0 auto;
+	margin-bottom: 150px; 
+}
+
+h1{
+	text-align: center;
+	text-shadow: 2px 2px 2px #000;
+}
+
+
+
+.tasks-list{
+	background-color: #fff;
+	color: #333;
+	border-radius: 8px;
+	margin: 20px 0px;
+	padding: 18px 0px;
+	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 3px 3px rgba(0,0,0,.4);
+	box-shadow: 0 3px 3px rgba(0,0,0,.4);	
+}
+
+.unfinished{
+	padding:5px 50px 8px 30px; 
+	font-size: 30px;
+}
+
+.finished{
+	float: right;
+	color: #888;
+}
+
+.finished:hover{
+	color: red;
+}
+
+.task-item{
+	padding: 18px 30px;
+	font-size:40px;
+	cursor: pointer;
+	-webkit-transition: background .2s;
+	-moz-transition: background .2s;
+	-ms-transition: background .2s;
+	-o-transition: background .2s;
+	transition: background .2s;
+	font-family:Roboto;
+}
+
+.task-item input{
+	width: 30px;
+	height: 35px;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.add-task{
+	position: relative;
+}
+
+.task-item:hover{
+	background:#eee;
+}
+
+.add-task input[type="text"]{
+	width: 90%;
+	height: 60px;
+	border-radius: 5px;
+	font-size:25px;
+	background-color: #eee;
+	padding-left: 30px;
+	color:#888;
+}
+.add-task input[type="text"]:focus{
+	background-color: #fff;
+	-webkit-transition: background .2s;
+	-moz-transition: background .2s;
+	-ms-transition: background .2s;
+	-o-transition: background .2s;
+	transition: background .2s;
+	border:2px solid rgba(38,77,142,0.24);
+}
+
+.add-task button{
+	width: 100px;
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    display: inline-block;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    font-size: 16px;
+    border-top-right-radius:  8px;
+    border-bottom-right-radius:  8px;
+    outline:none; /*取消按钮点击后的样式*/
+    cursor: pointer;
+}
+
+.add-task button:hover{
+	font-size: 20px;
+}
+
+.task-content,.action{
+	vertical-align: top;
+}
+
+.action{
+	font-size: 40px;
+	color: #888;
+	margin-right: 20px;
+}
+
+.action1:hover{
+	color: red;
+}
+
+.action1{
+	font-size: 40px;
+}
+
+.task-right{
+	float: right;
+}
+
+.footer{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding: 30px 0;
+	text-align: center;
+	background-color: #96cacd;
+	color: #888;
+}
+
+.footer span:after{
+	content: 'Mobile Device';
+}
