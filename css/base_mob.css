@@ -22,7 +22,7 @@ body{
 }
 
 .search-top input[type=text]{
-	width: 65%;
+	width: 70%;
 	height: 60px;
 	border:none;
 	background-color: #96cdc3;
@@ -35,15 +35,15 @@ body{
 }
 
 .search-top input[type=submit]{
-	width: 26%;
-	height: 66px;
+	width: 25%;
+	height: 60px;
 	border:none;
 	background-color: #96cdc3;
 	cursor: pointer;
 	color: gray;
 	outline:none;
 	float: right;
-	font-size: 66px;
+	font-size: 60px;
 }
 
 .container{
