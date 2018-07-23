@@ -35,7 +35,7 @@ body{
 }
 
 .search-top input[type=submit]{
-	width: 25%;
+	width: 22%;
 	height: 60px;
 	border:none;
 	background-color: #96cdc3;
@@ -44,6 +44,7 @@ body{
 	outline:none;
 	float: right;
 	font-size: 60px;
+	text-align: center;
 }
 
 .container{
