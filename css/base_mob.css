@@ -24,7 +24,8 @@ body{
 .search-top input[type=text]{
 	width: 70%;
 	height: 60px;
-	border:none;
+	border-left:none;
+	border-right: none;
 	background-color: #96cdc3;
 	outline:none;
 	padding-left: 25px;
@@ -43,7 +44,7 @@ body{
 	color: gray;
 	outline:none;
 	font-size: 60px;
-	text-align: center;
+	text-align: left;
 }
 
 .container{
