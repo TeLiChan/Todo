@@ -40,14 +40,14 @@ body{
 	-webkit-appearance: none; 
 	margin: 0;
 	padding: 0;
-	width: 20%;
-	height: 66px;
+	width: 22%;
+	height: 64px;
 	border:0;
 	background-color: #96cdc3;
 	cursor: pointer;
 	color: gray;
 	outline:none;
-	font-size: 60px;
+	font-size: 64px;
 	float: right;
 }
 
