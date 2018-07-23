@@ -22,7 +22,7 @@ body{
 }
 
 .search-top input[type=text]{
-	width: 75%;
+	width: 72%;
 	height: 60px;
 	border-left:none;
 	border-right:none;
@@ -38,6 +38,8 @@ body{
 
 .search-top input[type=submit]{
 	-webkit-appearance: none; 
+	margin: 0;
+	padding: 0;
 	width: 20%;
 	height: 60px;
 	border:0;
