@@ -39,8 +39,8 @@ body{
 
 .search-top input[type=submit]{
 	width: 10%;
-
 	border:none;
+	border-right: 2px solid;
 	background-color: #96cdc3;
 	cursor: pointer;
 	color: gray;
