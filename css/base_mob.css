@@ -22,7 +22,7 @@ body{
 }
 
 .search-top input[type=text]{
-	width: 70%;
+	width: 68%;
 	height: 60px;
 	border:none;
 	background-color: #96cdc3;
@@ -36,7 +36,9 @@ body{
 
 .search-top input[type=submit]{
 	width: 22%;
-	border:none;
+	border-top:none;
+	border-bottom: none;
+	border-left: none; 
 	background-color: #96cdc3;
 	cursor: pointer;
 	color: gray;
