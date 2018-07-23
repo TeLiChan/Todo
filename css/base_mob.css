@@ -18,7 +18,7 @@ body{
 .search-top form{
 	width: 800px;
 	margin: 0px auto;
-	padding-top: 60px; 
+	padding-top: 55px; 
 }
 
 .search-top input[type=text]{
@@ -42,7 +42,6 @@ body{
 	cursor: pointer;
 	color: gray;
 	outline:none;
-	float: right;
 	font-size: 60px;
 	text-align: center;
 }
