@@ -37,15 +37,15 @@ body{
 }
 
 .search-top input[type=submit]{
-	width: auto;
+	-webkit-appearance: none; 
+	width: 20%;
 	height: 60px;
-	border:none;
+	border:0;
 	background-color: #96cdc3;
 	cursor: pointer;
 	color: gray;
 	outline:none;
 	font-size: 60px;
-	display: inline-block;
 	float: right;
 }
 
